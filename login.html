@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style/Signup.css">
+    <link rel="stylesheet" href="./style/login.css">
     <link rel="shortcut icon" href="//cdn.shopify.com/s/files/1/0627/7388/7215/files/Favicon_32x32.jpg?v=1650456214" type="image/x-icon">
-    <title>Create Account-Lovoda</title>
+    <title>Account - Lovoda</title>
 </head>
 <body>
-    <h1 id="create-header">Create account</h1>
+    <h1 id="create-header">Login</h1>
     <div id="Redirect">
         <div>
            <div class="link-box">
@@ -31,17 +31,12 @@
         </div>
     </div>
     <div id="sign-up">
-        <input type="text" id="first_name" placeholder="First name">
-        <input type="text" id="last_name" placeholder="Last name">
         <input type="email" id="email" placeholder="Email">
         <input type="password" id="password" placeholder="Password">
-        <div id="checkbox">
-            <p>Subscribe for Newsletter</p>
-            <input type="checkbox">
-        </div>
-        <button onclick="create()" id="btn-create">Create</button>
+        <p id="forgot">Forgot your password?</p>
+        <button onclick="login()" id="btn-create">Sign in</button>
+        <a href="./Signup.html"><p id="create-p">Create account</p></a>
     </div>
-    
 </body>
 </html>
-<script src="./scripts/Signup.js"></script>
+<script src="./scripts/login.js"></script>
