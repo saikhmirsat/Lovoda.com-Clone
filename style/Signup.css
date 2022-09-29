@@ -83,8 +83,9 @@
 #sign-up{
     width: 28%;
     margin: auto;
-    height:250px;
-    margin-top:1%;
+    margin-bottom: 2%;
+    /* height:200px; */
+
 }
 #sign-up>input{
     width:94%;
@@ -104,7 +105,7 @@
     letter-spacing: 1px;
     color: grey;
     font-size: 14px;
-    margin-top: -2%;
+    margin-top:15px;
 }
 #btn-create{
     padding:12px;

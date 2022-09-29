@@ -6,7 +6,7 @@ let create = ()=>{
     let user = {
         fname : document.getElementById("first_name").value,
         lname : document.getElementById('last_name').value,
-        email : document.getElementById("email").value,
+        email : document.getElementById("email-1").value,
         password : +document.getElementById("password").value,
     }
      
