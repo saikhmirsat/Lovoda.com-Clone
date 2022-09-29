@@ -1,7 +1,7 @@
 #create-header{
     text-align: center;
     font-family: Assistant, sans-serif;
-    margin-top: 6%;
+    margin-top:4%;
     font-stretch:extra-expanded;
     font-weight:100;
     font-size:34px;
@@ -88,7 +88,8 @@ a{
     width: 28%;
     margin: auto;
     height:250px;
-    margin-top:1%;
+    margin-top: 1%;
+    margin-bottom:150px;
 }
 #sign-up>input{
     width:94%;
@@ -125,7 +126,8 @@ a{
     border-bottom: 1px solid black;
     width: fit-content;
     cursor: pointer;
-    font-size:13px;
+    font-size:12px;
+    margin-top:10px;
 }
 #forgot:hover{
     border-bottom: 2px solid black;
@@ -136,7 +138,7 @@ a{
     border-bottom: 1px solid black;
     width: fit-content;
     cursor: pointer;
-    font-size:13px;
+    font-size:12px;
     margin-left:39%;
     margin-top:4%;
 }
