@@ -43,7 +43,7 @@ displayCartCount();
 let login_icon = document.getElementById("login-icon");
 login_icon.addEventListener("click", () => {
   if (loginUser) {
-    window.location.href = "account.html";
+    window.location.href = "";
   } else {
     window.location.href = "login.html";
   }
