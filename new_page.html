@@ -5,16 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./style/new_page.css">
-    <link rel="stylesheet" href="./style/navbar.css">
-    <link rel="stylesheet" href="./style/footer.css">
+    <link rel="stylesheet" href="new_page.css">
 </head>
 <body>
-    <div id="nav"></div>
     <h1>New</h1>
+
+<div id="price" >
+    <div id="p_div1" >
+        <p>The highest price is $95.00</p>
+        <p>Reset</p>
+    </div>
+    <hr>
+    <div id="p_div2">
+        <label for="">$</label>
+        <input placeholder="From" type="number">
+        <label for="">$</label>
+        <input placeholder="To" type="number">
+    </div>
+</div>
+
+<div id="availability" >
+    <div id="a_div1" >
+        <p>0 selected</p>
+        <p>Reset</p>
+    </div>
+    <hr>
+    <div id="a_div2" >
+        <div><input type="radio">
+            <label for="">In stock (463)</label></div>
+        <div><input type="radio">
+            <label for="">Out of stock (2)</label></div>
+        
+    </div>
+</div>
     <div id="function_part" >
     <div id="div1">
-        <div><p>Filter:Price >  </p></div>
+        <div id="div11" ><p>Filter : Price </p></div>
         <div><p>Availability >  </p></div>
     </div>
     <div id="div2">
@@ -71,16 +97,6 @@
         
        </div>
     </div>
-    <div id="foot-part"></div>
 </body>
 </html>
-<script src=""></script>
-<script type="module">
-    import navbar from './components/navbar.js'
-    let Nav = document.getElementById('nav')
-    Nav.innerHTML = navbar();
-
-    import footer from './components/footer.js'
-    let Foot = document.getElementById('foot-part')
-    Foot.innerHTML = footer()
-</script>
+<script src="new_page.js"></script>
