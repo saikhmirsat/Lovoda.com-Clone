@@ -1,6 +1,6 @@
 let login = ()=>{
     let email = document.getElementById("email-1").value;
-    let password = +document.getElementById("password").value;
+    let password = document.getElementById("password").value;
 
     let data = JSON.parse(localStorage.getItem("users")) || [];
 

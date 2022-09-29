@@ -7,7 +7,7 @@ let create = ()=>{
         fname : document.getElementById("first_name").value,
         lname : document.getElementById('last_name').value,
         email : document.getElementById("email-1").value,
-        password : +document.getElementById("password").value,
+        password : document.getElementById("password").value,
     }
      
     for(let i=0; i<data.length; i++){
