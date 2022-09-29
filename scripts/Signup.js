@@ -7,7 +7,7 @@ let create = ()=>{
         fname : document.getElementById("first_name").value,
         lname : document.getElementById('last_name').value,
         email : document.getElementById("email").value,
-        password : document.getElementById("password").value,
+        password : +document.getElementById("password").value,
     }
      
     for(let i=0; i<data.length; i++){
@@ -20,4 +20,5 @@ let create = ()=>{
     data.push(user);
     localStorage.setItem("users",JSON.stringify(data));
     alert("Sign Up successful!");
+    window.location.href = "login.html";
 };
