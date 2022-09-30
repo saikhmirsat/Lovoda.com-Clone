@@ -7,12 +7,12 @@ body {
     width: 100%;
   }
   #top-section {
-    width: 75%;
+    width: 80%;
     margin: auto;
     margin-top: 40px;
     display: grid;
-    grid-template-columns: 60% 35%;
-    gap: 5%;
+    grid-template-columns: 65% 32%;
+    gap: 3%;
   }
   #three-layer {
     display: flex;
@@ -67,29 +67,37 @@ body {
     color: #121212;
   }
   .fa-star-o {
-    color: #c9ac92;
+    color: #f7b706 ;
     margin-bottom: 10px;
     margin-top: 10px;
   }
   #review-star {
-    font-size: 16px;
+    font-size: 22px;
     line-height: 16px;
-    color: rgba(61, 61, 61, 0.75);
+    color: rgba(82, 82, 82, 0.75);
   }
-  #comments {
-    font-size: 16px;
+  #review-star>span{
+    font-size: 15px;
     line-height: 16px;
-    color: rgba(61, 61, 61, 0.75);
+    color: rgba(82, 82, 82, 0.75);
     margin-bottom: 10px;
   }
+  #comments {
+    font-size: 15px;
+    line-height: 16px;
+    color: rgba(82, 82, 82, 0.75);
+    margin-bottom: 12px;
+  }
   #price {
-    font-size: 18px;
+    font-size: 22px;
     line-height: 27px;
+    margin-bottom: 10px;
+    color: rgba(44, 44, 44, 0.75);
   }
   #afterpay {
     font-size: 14px;
     line-height: 16px;
-    color: rgba(61, 61, 61, 0.75);
+    color: rgba(82, 82, 82, 0.75);
     line-height: 29px;
     margin-bottom: 15px;
   }
@@ -186,6 +194,16 @@ body {
     height: 50px;
     margin: 25px 0px 10px 0px;
     background-color: transparent;
+    font-size: 14px;
+    border: 1px solid #121212;
+  }
+  #Show>button{
+    display: block;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 50px;
+    margin: 10px 0px 25px 0px;
     font-size: 14px;
     border: 1px solid #121212;
   }
