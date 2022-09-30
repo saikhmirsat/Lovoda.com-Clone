@@ -1,6 +1,6 @@
 
 let cartItem = JSON.parse(localStorage.getItem("cartItem"))
-
+//----------Cart  Item  Show--------------------------------------
 function showdata(){
   let products = document.getElementById("products-list");
   products.innerHTML = "";
@@ -56,7 +56,7 @@ function showdata(){
 }
 showdata()
 
-//--------Total Item-------------
+//---------------Total Item-----------------------------
 function TotalItem(){
   let item = document.getElementById("total");
   item.innerText = cartItem.length
