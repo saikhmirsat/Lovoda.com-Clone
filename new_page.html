@@ -5,9 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="new_page.css">
+    <link rel="stylesheet" href="./style/new_page.css">
+    <link rel="stylesheet" href="./style/navbar.css">
+    <link rel="stylesheet" href="./style/footer.css">
 </head>
 <body>
+    <div id="nav"></div>
     <h1>New</h1>
 
 <div id="price" >
@@ -40,8 +43,8 @@
 </div>
     <div id="function_part" >
     <div id="div1">
-        <div id="div11" ><p>Filter : Price </p></div>
-        <div><p>Availability >  </p></div>
+        <div id="div11" >Filter : Price </div>
+        <div id="div12" ><p>Availability >  </p></div>
     </div>
     <div id="div2">
         <p>Sort by:</p>
@@ -59,44 +62,18 @@
         <p>463 products</p>
     </div>
     </div>
-    <div id="contener">
-       <div id="card" >
-        <img src="https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101104-3_1_360x.jpg?v=1659450395" alt="">
-        <p>Evermore Ear Cuff Earrings</p>
-        <p>$10.00</p>
-        
-       </div>
-       <div id="card" >
-        <img src="https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101104-3_1_360x.jpg?v=1659450395" alt="">
-        <p>Evermore Ear Cuff Earrings</p>
-        <p>$10.00</p>
-        
-       </div>
-       <div id="card" >
-        <img src="https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101104-3_1_360x.jpg?v=1659450395" alt="">
-        <p>Evermore Ear Cuff Earrings</p>
-        <p>$10.00</p>
-        
-       </div>
-       <div id="card" >
-        <img src="https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101104-3_1_360x.jpg?v=1659450395" alt="">
-        <p>Evermore Ear Cuff Earrings</p>
-        <p>$10.00</p>
-        
-       </div>
-       <div id="card" >
-        <img src="https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101104-3_1_360x.jpg?v=1659450395" alt="">
-        <p>Evermore Ear Cuff Earrings</p>
-        <p>$10.00</p>
-        
-       </div>
-       <div id="card" >
-        <img src="https://cdn.shopify.com/s/files/1/0627/7388/7215/products/L101104-3_1_360x.jpg?v=1659450395" alt="">
-        <p>Evermore Ear Cuff Earrings</p>
-        <p>$10.00</p>
-        
-       </div>
-    </div>
+    <div id="contener"></div>
+
+    <div id="foot-part"></div>
 </body>
 </html>
-<script src="new_page.js"></script>
+<script type="module">
+    import navbar from './components/navbar.js'
+    let Nav = document.getElementById('nav')
+    Nav.innerHTML = navbar();
+
+    import footer from './components/footer.js'
+    let Foot = document.getElementById('foot-part')
+    Foot.innerHTML = footer()
+</script>
+<script src="./scripts/new_page.js"></script>
