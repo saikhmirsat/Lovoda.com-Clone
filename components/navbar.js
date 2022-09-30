@@ -10,14 +10,14 @@ function navbar() {
             <img
                 src="https://cdn.shopify.com/s/files/1/0627/7388/7215/files/04122019_logo2_90x@2x.png?v=1645644264">
             <div id="all-a">
-                <a href="#">Home</a>
-                <a href="#">New</a>
+                <a href="index.html">Home</a>
+                <a href="new_page.html">New</a>
                 <a href="#">Shop All</a>
                 <a href="#">Earrings</a>
                 <a href="#">Necklaces</a>
                 <a href="#">Bracelets</a>
                 <a href="#">Rings</a>
-                <a href="#">Shop Social</a>
+                <a href="ShopSocial.html">Shop Social</a>
             </div>
         </div>
         <div id="nav-right">

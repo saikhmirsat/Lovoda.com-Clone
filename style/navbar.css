@@ -50,6 +50,10 @@
     gap: 25px;
 }
 
+#all-a>a:hover {
+    text-decoration: underline;
+}
+
 #nav-right {
     /* border: 1px solid blue; */
     display: flex;
