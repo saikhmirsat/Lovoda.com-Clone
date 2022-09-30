@@ -162,12 +162,12 @@
     margin: auto;
     text-align: center;
     font-size: 15px;
-    color: blue;
+    color: rgb(46, 134, 250);
     font-weight: 900;
     border: none;
     background-color: transparent;
     padding: 0 0 5px 0;
-    border-bottom: 2px solid blue;
+    border-bottom: 2px solid rgb(46, 134, 250);
     margin-top: 20px;
     margin-bottom: 80px;
 }
