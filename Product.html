@@ -26,10 +26,11 @@
       referrerpolicy="no-referrer"
     />
   </head>
-
+<!---------------------------------------------------------------->
   
   <body>
     <div id="nav"></div>
+    
     <div id="container">
       <div id="top-section">
         <div id="left-img-sec">
@@ -90,13 +91,14 @@
           <p id="quantity">Quantity</p>
           <div id="counter">
             <button id="dec">-</button>
-            <button id="count-num">10</button>
+            <button id="count-num">1</button>
             <button id="inc">+</button>
           </div>
           <a href="" id="continue-shopping">Continue shopping</a>
-          <button id="add-to-cart">Add to Cart</button>
+          <button id="add-to-cart" onclick="AddCart()">Add to Cart</button>
+          <div id="Show"></div>
           <button id="wishlist">Add to my Wishlist</button>
-          <button id="buy-it-now">But now</button>
+          <button id="buy-it-now" onclick="BuyNow()">Buy now</button>
           <p id="below-text">
             Vintage gold metal with a circle of pearls and a center of small
             stones.
