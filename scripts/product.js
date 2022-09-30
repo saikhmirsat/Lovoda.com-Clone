@@ -48,14 +48,15 @@ let appendProductDetails = (data) => {
 };
 
 // append function invoke-----------------------------------------------
-let product_details =
-  JSON.parse(localStorage.getItem("productDetails")) || null;
+let product_details = JSON.parse(localStorage.getItem("productDetails")) || null;
 appendProductDetails(product_details);
 
 
 //add to cart function--------------------------------------------
+let arr =JSON.parse(localStorage.getItem("cartItem")) || []
 function AddCart(){
-  localStorage.setItem("cartItem", JSON.stringify(product_details));
+  arr.push(product_details)
+  localStorage.setItem("cartItem", JSON.stringify(arr));
   alert("Added to Cart")
   let cont = document.getElementById("Show");
   cont.innerText = "";
