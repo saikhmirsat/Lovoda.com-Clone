@@ -47,12 +47,12 @@ let appendProductDetails = (data) => {
   prod_price.innerText = `$${data.dolar.toFixed(2)}`;
 };
 
-// append function invoke-----------------------------------------------
+//-----------append function invoke-----------------------------------------------
 let product_details = JSON.parse(localStorage.getItem("productDetails")) || null;
 appendProductDetails(product_details);
 
 
-//add to cart function--------------------------------------------
+//----------------add to cart function--------------------------------------------
 let arr =JSON.parse(localStorage.getItem("cartItem")) || []
 function AddCart(){
   arr.push(product_details)
@@ -79,7 +79,7 @@ function BuyNow(){
 
 }
 
-// // redirect to cart------------------------------------------------------
+//-------------redirect to cart------------------------------------------------------
 let redirect_to_cart = document.getElementById("wishlist");
 redirect_to_cart.addEventListener("click", (e) => {
   window.location.href = "cart.html";
