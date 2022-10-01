@@ -129,7 +129,6 @@ body {
   color: rgba(61, 61, 61, 0.75);
   line-height: 29px;
   margin-bottom: 25px;
-  margin-top: -10px;
 }
 #afterpay span {
   background-color: #b2fce4;
@@ -148,6 +147,9 @@ body {
   font-weight: 500;
   line-height: 16px;
   color: #121212;
+}
+#subtotal-text{
+  margin-bottom: 10px;
 }
 #payment-option-sec .text {
   font-size: 14px;
