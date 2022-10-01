@@ -30,8 +30,9 @@ function showdata(){
     img.src = el.image;
     img.id = "pro_image"
     img.loading = "lazy";
+
     img_box.append(img);
-    Small_card.append(love_btn, img_box, img)
+    Small_card.append(love_btn, img_box)
 
     let title = document.createElement("a");
     title.innerText = el.title;
