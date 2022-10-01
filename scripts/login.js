@@ -9,6 +9,7 @@ let login = ()=>{
             if(data[i].password === password){
                 localStorage.setItem("users",JSON.stringify(true));
                 alert("Login successful!");
+                window.location.href = "Dashboard.html";
                 return;
             }
             else{
