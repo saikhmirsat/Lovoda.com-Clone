@@ -13,7 +13,9 @@
     />
 
     <!-- custom css -->
-    <link rel="stylesheet" href="./style/checkout.css" />
+    <link rel="stylesheet" href="./style/checkout.css">
+    <link rel="stylesheet" href="./style/footer.css">
+    <link rel="stylesheet" href="./style/navbar.css">
 
     <!-- font-awesome -->
     <link
@@ -25,6 +27,7 @@
     />
   </head>
 <body>
+    <div id="nav"></div>
     <div id="mainBox">
         <div id="box1">
             <a href="index.html"><img src="https://cdn.shopify.com/s/files/1/0627/7388/7215/files/04122019_logo2_90x@2x.png?v=1645644264"></a>
@@ -45,6 +48,16 @@
             <button onclick="BuyNow()">Contnue to Shipping</button>
         </div>
     </div>
+    <div id="foot-part"></div>
 </body>
 </html>
 <script src="./scripts/checkout.js"></script>
+<script type="module">
+    import navbar from './components/navbar.js'
+    let Nav = document.getElementById('nav')
+    Nav.innerHTML = navbar();
+
+    import footer from './components/footer.js'
+    let Foot = document.getElementById('foot-part')
+    Foot.innerHTML = footer()
+</script>
