@@ -37,7 +37,7 @@ function showdata(){
     title.innerText = el.title;
     title.setAttribute("class", "prod-title");
 
-    // hover effect
+    //------------hover effect------------------------------
     card.addEventListener("mouseout", (e) => {
       img.src = el.image;
       title.style.borderBottom = "1px solid transparent";
