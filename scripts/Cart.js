@@ -81,3 +81,8 @@ let remove = (id) => {
   localStorage.setItem("cartItem", JSON.stringify(cartItem));
   showdata()
 }
+
+// ----------checkout page------------------
+function NextPage(){
+  window.location.href = "checkout.html"
+}
