@@ -30,17 +30,13 @@ body {
 }
 #table-heading {
   display: grid;
-  grid-template-columns: 50% 20% 20%;
+  grid-template-columns: 40% 30% 30%;
   grid-template-rows: auto;
-  gap: 50px;
 }
 #table-heading p {
   font-size: 10px;
   line-height: 12px;
   color: rgba(61, 61, 61, 0.75);
-}
-#table-heading p:last-child {
-  text-align: right;
 }
 .hr-bar {
   border: none;
@@ -60,6 +56,14 @@ body {
   justify-content: space-between;
   align-items: flex-start;
   margin-bottom: 50px;
+}
+#remove{
+  font-size: 15px;
+  color: white;
+  background-color: black;
+  border-radius: 0px;
+  width: 80px;
+  margin-top: 60px;
 }
 #pro_image{
   height: 164px;

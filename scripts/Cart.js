@@ -43,14 +43,17 @@ function showdata(){
       title.style.borderBottom = "1px solid transparent";
     });
 
+    let rem_div = document.createElement("div")
     let price = document.createElement("p");
     price.innerText = `$${el.dolar.toFixed(2)}`;
     price.setAttribute("class", "prod-price");
 
-    // let btn = document.createElement("button");
-    // btn.innerText = "Remove"
+    let rem = document.createElement("button");
+    rem.innerText = "Remove"
+    rem.id = "remove"
+    rem_div.append(price, rem)
 
-    card.append(Small_card, title, price);
+    card.append(Small_card, title, rem_div);
     products.append(card);
   })
 }
