@@ -11,7 +11,7 @@ function navbar() {
             <div id="all-a">
                 <a href="index.html">Home</a>
                 <a href="new_page.html">New</a>
-                <a href="#">Shop All</a>
+                <a href="shop_all.html">Shop All</a>
                 <a href="#">Earrings</a>
                 <a href="#">Necklaces</a>
                 <a href="#">Bracelets</a>
