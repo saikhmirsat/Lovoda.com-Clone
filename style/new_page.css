@@ -23,7 +23,11 @@ p{
     color:#121212BF;
     font-size: 14px;
 }
+#div11{
+    color:#121212BF;
+    font-size: 14px;
 
+}
 #div1{
  display: flex;
  justify-content: space-between;
@@ -50,7 +54,6 @@ select{
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: repeat(1,1fr);
     gap: 7px;
-    margin-bottom: 50px;
     
 }
 #card{
@@ -78,6 +81,7 @@ select{
     margin-top: 105px;
     margin-left: 170px;
     background-color: white;
+    z-index: 5;
     
 }
 #div1 > div:nth-child(1):hover{
@@ -196,6 +200,7 @@ label{
 
 .card .heart-back>img {
     border-radius: 50%;
+    background: transparent;
 }
 
 .card>p {
@@ -230,4 +235,17 @@ label{
     top: 35px;
 }
 
-
+#pages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-size: 18px;
+    margin-top: 70px;
+    margin-bottom: 80px;
+    color: black;
+    cursor: pointer;
+  }
+a{
+    color: #121212BF;
+}
