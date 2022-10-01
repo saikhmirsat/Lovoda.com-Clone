@@ -47,18 +47,57 @@ select{
 
 
 #contener{
-    width: 80%;
+    /* width: 80%;
     margin-left: 10%;
     margin-top: 35px;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: repeat(1,1fr);
-    gap: 7px;
-    
+    gap: 7px; */
+
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    gap: 10px;
+    margin-top: 40px;
 }
+
+.card:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+
+}
+
+.card {
+    overflow: hidden;
+}
+
+.img-box {
+    height: 400px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    transition: 0.5s all ease-in-out;
+    overflow-y: hidden;
+    object-fit: cover;
+}
+
+.card img:hover {
+    transform: scale(1.05);
+}
+
+    
+
 #card{
     width: 265px;
     height: 500px;
+
    
 }
 #contener img{
@@ -84,6 +123,9 @@ select{
     z-index: 5;
     
 }
+
+
+
 #div1 > div:nth-child(1):hover{
     /* color: red; */
     display: block;
@@ -249,3 +291,80 @@ label{
 a{
     color: #121212BF;
 }
+
+
+#product-list {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+.card {
+    overflow: hidden;
+}
+
+.img-box {
+    height: 400px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    transition: 0.5s all ease-in-out;
+    overflow-y: hidden;
+    object-fit: cover;
+}
+
+.card img:hover {
+    transform: scale(1.05);
+}
+
+.card .heart-back {
+    position: absolute;
+    border-radius: 50%;
+    border: none;
+    background-color: white;
+    height: 32px;
+    width: 32px;
+    margin-top: 3px;
+    font-size: 20px;
+    z-index: 1;
+}
+
+.card .heart-back>img {
+    border-radius: 50%;
+}
+
+.card>p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.card button:hover {
+    cursor: pointer;
+}
+
+.prod-title {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 17px;
+    color: #121212;
+}
+
+.prod-price {
+    font-size: 14x;
+    font-weight: 400;
+    line-height: 17px;
+    color: #121212;
+}
+
