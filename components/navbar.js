@@ -12,10 +12,10 @@ function navbar() {
                 <a href="index.html">Home</a>
                 <a href="new_page.html">New</a>
                 <a href="shop_all.html">Shop All</a>
-                <a href="#">Earrings</a>
-                <a href="#">Necklaces</a>
-                <a href="#">Bracelets</a>
-                <a href="#">Rings</a>
+                <a href="earrings.html">Earrings</a>
+                <a href="necklaces.html">Necklaces</a>
+                <a href="bracelets.html">Bracelets</a>
+                <a href="rings.html">Rings</a>
                 <a href="ShopSocial.html">Shop Social</a>
             </div>
         </div>
