@@ -15,7 +15,7 @@ function navbar() {
                 <a href="earrings.html">Earrings</a>
                 <a href="necklaces.html">Necklaces</a>
                 <a href="bracelets.html">Bracelets</a>
-                <a href="rings.html">Rings</a>
+                <a href="shop_all.html">Rings</a>
                 <a href="ShopSocial.html">Shop Social</a>
             </div>
         </div>
