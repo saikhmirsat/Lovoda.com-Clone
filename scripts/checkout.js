@@ -10,5 +10,14 @@ function BuyNow(){
 
     if(first!==null && last!==null && address!==null && suite!==null && city!==null && state!==null && code!==null && phone!==null){
         alert(`${first}, Your shipment is ready`)
+        window.location.href = "index.html"
     }
+     first = ""
+     last = ""
+     address = ""
+     suite = ""
+     city = ""
+     state = ""
+     code = ""
+     phone = ""
 }

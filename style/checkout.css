@@ -19,6 +19,7 @@
     width:87% ;
     border-radius: 5px;
     font-size: 17px;
+    padding-left: 10px;
 }
 #form1{
     display: flex;
@@ -29,7 +30,8 @@
     width:40% ;
     border-radius: 5px;
     font-size: 17px;
-    margin-left: 7%;
+    margin-left: 6.7%;
+    padding-left: 10px;
 }
 #form2{
     display: flex;
@@ -37,8 +39,9 @@
 #form2>input{
     margin-top: 20px;
     height: 50px;
-    width:23% ;
+    width:24.7% ;
     border-radius: 5px;
     font-size: 17px;
-    margin-left: 7%;
+    margin-left: 6.4%;
+    padding-left: 10px;
 }
