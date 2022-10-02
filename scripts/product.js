@@ -76,7 +76,7 @@ function AddCart(){
   cont.append(btn1, btn2)
 }
 function BuyNow(){
-
+  window.location.href = "checkout.html"
 }
 
 //-------------redirect to cart------------------------------------------------------
