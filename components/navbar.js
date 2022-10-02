@@ -22,7 +22,7 @@ function navbar() {
         <div id="nav-right">
             <a href=""><img src="https://i.ibb.co/sWVQjCp/Screenshot-2022-09-28-at-12-15-23-PM.png"></a>
             <a href="Login.html" id="profile"><img src="https://i.ibb.co/Smb4Y6n/Screenshot-2022-09-28-at-12-15-42-PM.png"></a>
-            <a href=""><img src="https://i.ibb.co/WKh3th0/Screenshot-2022-09-28-at-12-15-52-PM.png"></a>
+            <a href="Cart.html"><img src="https://i.ibb.co/WKh3th0/Screenshot-2022-09-28-at-12-15-52-PM.png"></a>
         </div>
     </div>
 </div>`
