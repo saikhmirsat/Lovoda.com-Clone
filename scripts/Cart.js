@@ -1,7 +1,5 @@
 let id;
 let cartItem = JSON.parse(localStorage.getItem("cartItem"))
-console.log(cartItem)
-
 //----------Cart  Item  Show--------------------------------------
 function showdata(){
   let products = document.getElementById("products-list");
@@ -69,26 +67,18 @@ showdata()
 function TotalItem(){
   let item = document.getElementById("total");
   item.innerText = cartItem.length;
-  // showdata()
 }
 TotalItem()
+
 //--------------Sub-Total--------------------
 function SubTotal(){
-  let sub = document.getElementById("subtotal");
-  let sum = 0
-cartItem.map((el) => {
-  console.log(el.dolar)
-  sum+=el.dolar
-  console.log(sum)
-})
-sub.innerText = `$${sum}`
+  
 }
-SubTotal()
+
 //-----------Remove---------------------------
 let remove = (id) => {
   cartItem.splice(id, 1);
   localStorage.setItem("cartItem", JSON.stringify(cartItem));
-  location.reload()
   showdata()
 }
 
