@@ -9,19 +9,19 @@ Deployed Project Link - https://lovoda-com-clone.vercel.app/
 
 Duration - 5days
 
-Project name- yoox.my
+Project name- Lovoda.com
 
 Team lead- fw19_0481 - Saikh Mirsat; <br/>
-Areas of responsibilities: Navbar, Admin signup and login functionality, User Signup and Login
+Areas of responsibilities: Navbar, Home and footer
 
-Member 2- fw18_0294 - MD Sakil Ahmed <br/>
-Areas of responsibilities: Admin functionality ,delete,add and Cart page.
+Member 2-  Kishan Joshi <br/>
+Areas of responsibilities: Signup , Loging and User Profile
 
-Member 3- fw20_0043 - Ujjawal Kumar <br/>
-Areas of responsibilities: Kids page, design page
+Member 3-  Nandita Singh <br/>
+Areas of responsibilities: Add to Cart Functionality and Proceed to Checkout
 
-Member 4- fw20_0311 - Shoaib Akhtar Sherani <br/>
-Areas of responsibilities: Mens, Womens.
+Member 4- vishal gupta <br/>
+Areas of responsibilities: All the products parts like post product and fetching 
 
 <img src="https://i.ibb.co/DL086sX/Lovoda-com.png" width='100%' alt="lovoda.com" />
 
